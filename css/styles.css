@@ -1,0 +1,182 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+}
+
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+/* Download Button */
+.download-button {
+  margin: 3% 5% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Rotate Image */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature Icon */
+.icon-feature {
+  color: #ef8172;
+  font-size: 3rem;
+  line-height: 2;
+}
+
+.icon-feature:hover {
+  color: #ff4c68;
+}
+
+/* Features Div */
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #ef8172;
+  position: relative;
+}
+
+.carousel-item {
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* MEDIA TAGS */
+@media (max-width:990px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image {
+    position: relative;
+    transform: rotate(0);
+  }
+}
+
+/* CTA */
+.cta-header{
+  padding-top: 20px;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Footer */
+#footer{
+  background-color: #fff;
+}
+
+.copyright-text{
+  line-height: 2;
+}
+
+.footer-icon{
+  padding: 0 10px;
+}
+
+/* SECTIONS */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
